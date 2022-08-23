@@ -1,3 +1,6 @@
+#gpt-neo tutorial: https://www.youtube.com/watch?v=GzHJ3NUVtV4
+#example debate topic: https://www.academia.edu/36433939/ENGLISH_DEBATE_SCRIPT_The_Impact_of_Social_Networking_for_Students_
+
 # 사용자가 입력한 완성된 글(논리적이거나 아니거나)
 # AI 는 사용자가 입력한 문장들을 개별 문장으로 나누고, 각 문장을 입력으로 새로운 문장을 자체 생성한다. 생성한 문장은 논리적인 문장일 것이라는 가설.(테스트 완료)
 # 사용자가 입력한 문장들을 개별 분장으로 분해해서 리스트에 담는다. 
@@ -15,9 +18,14 @@
 
 # 문법교정, 완결된 문장을 확인하고 처리하는 기술이 중요함.
 
+#https://www.assemblyai.com/docs/core-transcription#filler-words
+#https://www.assemblyai.com/docs/core-transcription#profanity-filtering
+
 # 문장 예제 입력(인간 작성 문장)
 #input_sent = """You need flour to bake bread. You have a sack of flour in the garage. When you get there, you find on top of it a hat that you thought you had lost months ago. So you """
-input_sent = """You order a bowl of cold tomato soup in a restaurant. It looks delicious, but they forgot to bring you a spoon. You try to drink it by pouring it into your napkin, but"""
+input_sent = """We choose to be pro with this topic because nowadays social networking is very popular.There are many positive and negative impacts from this site in the internet. After discussing thistopic, we hope that we can increase the positive side and decrease the bad effect. All we know that social network has very much positive impact. In the educational sector, there are
+some benefits, such as for the learning discussion media. Many students sometimes feel like they’re
+not able to solve their task. So, they can solve their problem by discussions in social network withtheir friends or another people who could help."""
 
 
 # 다음 문장 입력(인간입력) 논리 - 이 문장을  AI와 비교할 것임, 이 문장은 논리적인 추론 결과로 작성된 문장임. 
